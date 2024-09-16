@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.rinko1231.zombievillagercontrol.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "zombievillagercontrol.refmap.json",
+  "mixins": [
+    "ZombieMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
