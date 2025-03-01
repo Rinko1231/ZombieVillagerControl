@@ -1,16 +1,16 @@
 package com.rinko1231.zombievillagercontrol.config;
 
-import net.minecraftforge.common.ForgeConfigSpec;
 
+import net.neoforged.neoforge.common.ModConfigSpec;
 
 public class ZVCConfig
 {
-    public static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
-    public static ForgeConfigSpec CONFIG;
+    public static ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
+    public static ModConfigSpec CONFIG;
 
-    public static ForgeConfigSpec.DoubleValue ZombifiedPossibility;
+    public static ModConfigSpec.DoubleValue ZombifiedPossibility;
 
-    public static ForgeConfigSpec.BooleanValue QuickCure;
+    public static ModConfigSpec.BooleanValue QuickCure;
 
     static
     {

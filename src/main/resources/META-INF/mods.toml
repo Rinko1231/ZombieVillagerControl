@@ -32,7 +32,7 @@ displayName="Zombie Villager Control" #mandatory
 # A text field displayed in the mod UI
 authors="Rinko1231" #optional
 # The description text for the mod (multi line!) (#mandatory)
-description="Modify the possibility of villagers being zombified by config instead of Game Difficulty. And you can cure the zombie villager instantly if it is enabled by config (thanks to Sarinsa's QuickCure)"
+description="Modify the possibility of villagers being zombified by config instead of Game Difficulty. And you can cure the zombie villager instantly if it is enabled by config"
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.zombievillagercontrol]] #optional
@@ -51,7 +51,7 @@ description="Modify the possibility of villagers being zombified by config inste
    modId="minecraft"
    mandatory=true
    # This version range declares a minimum of the current minecraft version up to but not including the next major version
-   versionRange="[1.20.1,1.21)"
+   versionRange="[1.21.1,1.22)"
    ordering="NONE"
    side="BOTH"
 
